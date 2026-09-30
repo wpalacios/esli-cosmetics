@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Suppliers",
+    "subtitle": "Manage your suppliers and their information",
+    "addButton": "Add Supplier",
+    "searchPlaceholder": "Search by name, contact, email or phone...",
+    "filters": "Filters"
+  },
+  "modal": {
+    "createTitle": "Create Supplier",
+    "editTitle": "Edit Supplier",
+    "createDesc": "Create a new supplier by filling out the form below.",
+    "editDesc": "Update the supplier information below."
+  },
+  "form": {
+    "supplierName": "Supplier Name",
+    "supplierNameRequired": "Supplier name is required",
+    "supplierNamePlaceholder": "Enter supplier name",
+    "contactName": "Contact Name",
+    "contactNamePlaceholder": "Enter contact person name",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "email": "Email",
+    "emailInvalid": "Invalid email address",
+    "emailPlaceholder": "Enter email address",
+    "address": "Address",
+    "addressPlaceholder": "Enter supplier address",
+    "brands": "Brands",
+    "brandsPlaceholder": "Select brands this supplier provides...",
+    "searchBrands": "Search brands...",
+    "loadingBrands": "Loading brands...",
+    "noBrandsFound": "No brands found",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update Supplier",
+    "create": "Create Supplier"
+  },
+  "table": {
+    "title": "Suppliers List",
+    "name": "Name",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "brands": "Brands",
+    "created": "Created",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "noData": "No suppliers found",
+    "noContact": "No contact",
+    "noPhone": "No phone",
+    "noEmail": "No email",
+    "noAddress": "No address",
+    "noBrands": "No brands",
+    "edit": "Edit",
+    "delete": "Delete",
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to",
+    "results": "results"
+  },
+  "toast": {
+    "success": "Success",
+    "created": "Supplier created successfully",
+    "updated": "Supplier updated successfully",
+    "deleted": "Supplier deleted successfully",
+    "error": "Error",
+    "errorDesc": "An error occurred",
+    "duplicateSupplier": "A supplier with that name already exists.",
+    "deleteFailed": "Failed to delete supplier"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Supplier",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  }
+}

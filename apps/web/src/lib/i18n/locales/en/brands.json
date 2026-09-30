@@ -1,0 +1,67 @@
+{
+  "page": {
+    "title": "Brands",
+    "subtitle": "Manage your product brands and suppliers",
+    "addButton": "Add Brand",
+    "searchPlaceholder": "Search by brand name, description, or country...",
+    "filters": "Filters",
+    "error": {
+      "loadFailed": "Failed to load brands. Please try again.",
+      "retry": "Retry"
+    }
+  },
+  "form": {
+    "name": "Brand Name",
+    "namePlaceholder": "Enter brand name...",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter brand description...",
+    "websiteUrl": "Website URL",
+    "websiteUrlPlaceholder": "https://www.brand.com",
+    "logoUrl": "Logo URL",
+    "logoUrlPlaceholder": "https://example.com/logo.png",
+    "country": "Country",
+    "countryPlaceholder": "Enter country of origin...",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "create": "Create Brand",
+    "update": "Update Brand",
+    "duplicateNameError": "A brand with this name already exists"
+  },
+  "table": {
+    "name": "Name",
+    "description": "Description",
+    "country": "Country",
+    "website": "Website",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "noData": "No brands found",
+    "loading": "Loading brands...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "noDescription": "No description",
+    "noCountry": "No country",
+    "noWebsite": "No website"
+  },
+  "modal": {
+    "createTitle": "Create Brand",
+    "editTitle": "Edit Brand"
+  },
+  "success": {
+    "created": "Brand Created",
+    "createdDescription": "{{name}} has been successfully created.",
+    "updated": "Brand Updated",
+    "updatedDescription": "{{name}} has been successfully updated."
+  },
+  "delete": {
+    "title": "Delete Brand",
+    "description": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "confirm": "Delete",
+    "cancel": "Cancel",
+    "success": "Brand Deleted",
+    "successDescription": "{{name}} has been successfully deleted.",
+    "error": "Delete Failed",
+    "errorDescription": "Failed to delete brand. Please try again.",
+    "hasProducts": "Cannot delete brand because it has associated products. Please remove all products from this brand first."
+  }
+}

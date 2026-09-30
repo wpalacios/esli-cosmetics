@@ -1,0 +1,28 @@
+# Dependencies and build outputs
+node_modules
+**/node_modules
+.next
+dist
+build
+out
+.turbo
+coverage
+storybook-static
+*.min.js
+
+# Lockfiles and generated files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+*.lock
+
+# Generated types / Prisma
+**/node_modules/.prisma
+
+# Mobile / Expo
+.expo
+web-build
+
+# Misc
+*.md
+.changeset

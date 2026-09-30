@@ -1,0 +1,86 @@
+{
+  "page": {
+    "title": "Warehouses",
+    "subtitle": "Manage your warehouses and inventory locations",
+    "addButton": "Add Warehouse",
+    "searchPlaceholder": "Search by name, address or contact...",
+    "filters": "Filters"
+  },
+  "modal": {
+    "createTitle": "Create Warehouse",
+    "editTitle": "Edit Warehouse",
+    "createDesc": "Create a new warehouse by filling out the form below.",
+    "editDesc": "Update the warehouse information below."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Enter warehouse name",
+    "branch": "Branch",
+    "branchPlaceholder": "Select a branch...",
+    "address": "Address",
+    "addressPlaceholder": "Enter address",
+    "contact": "Contact",
+    "contactPlaceholder": "Enter contact information",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update",
+    "create": "Create Warehouse"
+  },
+  "table": {
+    "title": "Warehouses List",
+    "name": "Name",
+    "branch": "Branch",
+    "address": "Address",
+    "contact": "Contact",
+    "created": "Created",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "locationType": "Location Type",
+    "noData": "No warehouses found",
+    "noBranch": "No branch",
+    "noAddress": "No address",
+    "noContact": "No contact",
+    "noLocationType": "No type",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "results": "results",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to"
+  },
+  "locationTypes": {
+    "STORE": "Store",
+    "WAREHOUSE": "Warehouse",
+    "DISTRIBUTION_CENTER": "Distribution Center",
+    "POPUP_STORE": "Pop-up Store"
+  },
+  "toast": {
+    "success": "Success",
+    "created": "Warehouse created successfully",
+    "updated": "Warehouse updated successfully",
+    "deleted": "Warehouse deleted successfully",
+    "error": "Error",
+    "errorDesc": "An unexpected error occurred. Please try again.",
+    "duplicateName": "A warehouse with this name already exists.",
+    "createFailed": "Failed to create warehouse",
+    "deleteFailed": "Failed to delete warehouse"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Warehouse",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  }
+}

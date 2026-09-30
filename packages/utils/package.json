@@ -1,0 +1,74 @@
+{
+  "name": "@esli-cosmetics/utils",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared utilities, hooks, and helpers for Esli Cosmetics monorepo",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./hooks": {
+      "types": "./src/hooks/index.ts",
+      "default": "./src/hooks/index.ts"
+    },
+    "./validation": {
+      "types": "./src/validation/index.ts",
+      "default": "./src/validation/index.ts"
+    },
+    "./api": {
+      "types": "./src/api/index.ts",
+      "default": "./src/api/index.ts"
+    },
+    "./api/client": {
+      "types": "./src/api/client.ts",
+      "default": "./src/api/client.ts"
+    },
+    "./format": {
+      "types": "./src/format/index.ts",
+      "default": "./src/format/index.ts"
+    },
+    "./lib/string": {
+      "types": "./src/lib/string.ts",
+      "default": "./src/lib/string.ts"
+    },
+    "./lib": {
+      "types": "./src/lib/index.ts",
+      "default": "./src/lib/index.ts"
+    },
+    "./client": {
+      "types": "./src/client.ts",
+      "default": "./src/client.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@esli-cosmetics/config": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@types/react": "^19.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "@esli-cosmetics/types": "workspace:*",
+    "@tanstack/react-query": "^5.8.4",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "react": "^19.0.0",
+    "tailwind-merge": "^2.2.0",
+    "zod": "^3.22.4"
+  }
+}

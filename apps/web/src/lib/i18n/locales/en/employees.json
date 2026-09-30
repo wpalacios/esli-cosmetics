@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Employees",
+    "subtitle": "Manage your team members and their information",
+    "addButton": "Add Employee",
+    "searchPlaceholder": "Search by name, employee code, or role...",
+    "filters": "Filters",
+    "error": {
+      "loadFailed": "Failed to load employees. Please try again.",
+      "retry": "Retry"
+    }
+  },
+  "form": {
+    "personalInfo": "Personal Information",
+    "employmentInfo": "Employment Information",
+    "firstName": "First Name",
+    "firstNameRequired": "First name is required",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "emailInvalid": "Invalid email address",
+    "docType": "Document Type",
+    "docTypePlaceholder": "Select document type...",
+    "docTypePassport": "Passport",
+    "docTypeId": "ID",
+    "docNumber": "Document Number",
+    "employeeCode": "Employee Code",
+    "employeeCodePlaceholder": "e.g., EMP001",
+    "roleTitle": "Role Title",
+    "roleTitlePlaceholder": "e.g., Sales Representative",
+    "branch": "Branch",
+    "branchPlaceholder": "Select a branch...",
+    "hireDate": "Hire Date",
+    "userId": "User ID (for system access)",
+    "userIdPlaceholder": "User UUID",
+    "isActive": "Active Employee",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updateEmployee": "Update Employee",
+    "createEmployee": "Create Employee",
+    "duplicateCodeError": "An employee with this code already exists",
+    "duplicateDocumentError": "A person with this document already exists",
+    "duplicateEmailError": "A person with this email already exists",
+    "checkingCode": "Checking code...",
+    "checkingDocument": "Checking document...",
+    "checkingEmail": "Checking email...",
+    "location": "Location",
+    "locationPlaceholder": "Select a location..."
+  },
+  "table": {
+    "name": "Name",
+    "employeeCode": "Code",
+    "role": "Role",
+    "branch": "Branch",
+    "location": "Location",
+    "hireDate": "Hire Date",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No employees found",
+    "loading": "Loading employees...",
+    "active": "Active",
+    "inactive": "Inactive",
+    "noBranch": "No branch",
+    "noRole": "No role",
+    "edit": "Edit",
+    "delete": "Delete",
+    "title": "Employees",
+    "hiredDate": "Hire Date"
+  },
+  "modal": {
+    "createTitle": "Create Employee",
+    "editTitle": "Edit Employee"
+  },
+  "toast": {
+    "created": "Employee Created",
+    "createdDesc": "{{name}} has been successfully created.",
+    "updated": "Employee Updated",
+    "updatedDesc": "{{name}} has been successfully updated.",
+    "deleted": "Employee Deleted",
+    "deletedDesc": "{{name}} has been successfully deleted.",
+    "deleteFailed": "Delete Failed",
+    "deleteFailedDesc": "Failed to delete {{name}}. Please try again."
+  },
+  "confirm": {
+    "deleteTitle": "Delete Employee",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  }
+}

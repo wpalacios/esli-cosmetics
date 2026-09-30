@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "mainMenu": "MENÚ PRINCIPAL",
+    "system": "SISTEMA",
+    "dashboard": {
+      "title": "Tablero",
+      "overview": "Resumen"
+    },
+    "inventory": {
+      "title": "Inventario",
+      "branches": "Sucursales",
+      "warehouses": "Bodegas",
+      "categories": "Categorías",
+      "brands": "Marcas",
+      "products": "Productos",
+      "prices": "Precios",
+      "suppliers": "Proveedores",
+      "supplierOrders": "Pedidos a Proveedor"
+    },
+    "stock": {
+      "title": "Existencias",
+      "stockLevels": "Niveles de Stock",
+      "stockMovements": "Movimientos de Stock",
+      "stockTransfers": "Transferencias de Stock"
+    },
+    "sales": {
+      "title": "Ventas",
+      "pos": "Punto de Venta",
+      "cashRegister": "Caja Registradora",
+      "orders": "Órdenes de Venta",
+      "quotes": "Proformas",
+      "customers": "Clientes",
+      "discountCodes": "Códigos de Descuento",
+      "customerTypes": "Tipos de Cliente",
+      "taxRates": "Tasas de Impuestos"
+    },
+    "reports": {
+      "title": "Reportes",
+      "salesReport": "Reportes de Ventas",
+      "salesProductsReport": "Ventas por Producto",
+      "inventoryReport": "Reporte de Inventario",
+      "customersReport": "Reporte de Clientes",
+      "stockMovementsReport": "Movimientos de Stock"
+    },
+    "hr": {
+      "title": "RRHH",
+      "employees": "Empleados"
+    },
+    "settings": {
+      "title": "Configuración",
+      "general": "General"
+    },
+    "admin": {
+      "title": "Administración",
+      "users": "Usuarios",
+      "roles": "Roles",
+      "permissions": "Permisos",
+      "cashRegisters": "Cajas Registradoras"
+    },
+    "notifications": "Notificaciones",
+    "profile": "Perfil"
+  },
+  "common": {
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "import": "Importar",
+    "refresh": "Actualizar",
+    "retry": "Reintentar",
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "noData": "No se encontraron datos",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "page": "Página",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados",
+    "all": "Todos",
+    "none": "Ninguno",
+    "yes": "Sí",
+    "no": "No",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "status": "Estado",
+    "name": "Nombre",
+    "description": "Descripción",
+    "product": "Producto",
+    "date": "Fecha",
+    "time": "Hora",
+    "total": "Total",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "noOptionsAvailable": "No hay opciones disponibles"
+  },
+  "table": {
+    "noData": "No hay datos disponibles",
+    "loading": "Cargando datos...",
+    "error": "Error al cargar datos",
+    "actions": "Acciones",
+    "itemsPerPage": "Elementos por página",
+    "showingResults": "Mostrando {{from}} a {{to}} de {{total}} resultados",
+    "page": "Página {{current}} de {{total}}"
+  },
+  "form": {
+    "required": "Este campo es requerido",
+    "invalidEmail": "Correo electrónico inválido",
+    "invalidPhone": "Número de teléfono inválido",
+    "minLength": "Debe tener al menos {{count}} caracteres",
+    "maxLength": "No debe exceder {{count}} caracteres",
+    "validation": {
+      "required": "Este campo es requerido",
+      "email": "Correo electrónico inválido",
+      "min": "El valor mínimo es {{min}}",
+      "max": "El valor máximo es {{max}}",
+      "minLength": "Debe tener al menos {{count}} caracteres",
+      "maxLength": "No debe exceder {{count}} caracteres"
+    }
+  },
+  "confirmation": {
+    "title": "¿Estás seguro?",
+    "description": "Esta acción no se puede deshacer.",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "delete": {
+      "title": "Eliminar {{item}}",
+      "description": "¿Estás seguro de que deseas eliminar este elemento? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar"
+    }
+  },
+  "toast": {
+    "success": {
+      "created": "{{item}} creado exitosamente",
+      "updated": "{{item}} actualizado exitosamente",
+      "deleted": "{{item}} eliminado exitosamente"
+    },
+    "error": {
+      "createFailed": "Error al crear {{item}}",
+      "updateFailed": "Error al actualizar {{item}}",
+      "deleteFailed": "Error al eliminar {{item}}",
+      "loadFailed": "Error al cargar datos"
+    }
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados",
+    "rowsPerPage": "Filas por página"
+  },
+  "ui": {
+    "productSelect": {
+      "placeholder": "Selecciona un producto...",
+      "searchPlaceholder": "Buscar productos por nombre, SKU o categoría...",
+      "loading": "Cargando productos...",
+      "noProductsFound": "No se encontraron productos",
+      "noProductsAvailable": "No hay productos disponibles",
+      "clearSelection": "Limpiar Selección"
+    },
+    "variantSelect": {
+      "placeholder": "Selecciona una variante...",
+      "searchPlaceholder": "Buscar variantes por nombre o SKU...",
+      "noVariantsFound": "No se encontraron variantes",
+      "noVariantsAvailable": "No hay variantes disponibles",
+      "noneUseBase": "Ninguna (usar producto base)",
+      "unnamed": "Variante sin Nombre",
+      "clearSelection": "Limpiar Selección"
+    },
+    "locationSelect": {
+      "placeholder": "Selecciona una ubicación...",
+      "searchPlaceholder": "Buscar ubicaciones por nombre, tipo o dirección...",
+      "loading": "Cargando ubicaciones...",
+      "noLocationsFound": "No se encontraron ubicaciones",
+      "noLocationsAvailable": "No hay ubicaciones disponibles",
+      "clearSelection": "Limpiar Selección",
+      "seeAll": "Todas las Ubicaciones"
+    },
+    "searchInput": {
+      "hintPressEnter": "Presiona",
+      "hintToSearch": "para buscar o",
+      "hintToFocus": "para enfocar",
+      "hintEnter": "Enter",
+      "hintCmd": "⌘",
+      "hintCtrl": "Ctrl"
+    }
+  }
+}

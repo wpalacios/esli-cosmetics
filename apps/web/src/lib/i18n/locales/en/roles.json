@@ -1,0 +1,83 @@
+{
+  "page": {
+    "title": "Roles",
+    "subtitle": "Manage system roles",
+    "addButton": "Add Role"
+  },
+  "table": {
+    "title": "Roles List",
+    "key": "Key",
+    "name": "Name",
+    "description": "Description",
+    "permissions": "Permissions",
+    "created": "Created",
+    "actions": "Actions",
+    "noData": "No roles",
+    "edit": "Edit",
+    "delete": "Delete",
+    "more": "more"
+  },
+  "toast": {
+    "success": "Success",
+    "deleted": "Role deleted successfully",
+    "error": "Error",
+    "deleteFailed": "Failed to delete role"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Role",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "modal": {
+    "createTitle": "Create Role",
+    "editTitle": "Edit Role",
+    "createDesc": "Add a new role to the system",
+    "editDesc": "Update role information"
+  },
+  "form": {
+    "key": "Key",
+    "keyRequired": "Role key is required",
+    "keyPlaceholder": "e.g., store_manager",
+    "keyImmutable": "Key cannot be changed after creation",
+    "name": "Name",
+    "nameRequired": "Role name is required",
+    "namePlaceholder": "e.g., Store Manager",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter description (optional)",
+    "permissions": "Permissions",
+    "cancel": "Cancel",
+    "update": "Update Role",
+    "create": "Create Role",
+    "success": "Success",
+    "created": "Role created successfully",
+    "updated": "Role updated successfully",
+    "error": "Error",
+    "saveFailed": "Failed to save role",
+    "saving": "Saving...",
+    "genericError": "An unexpected error occurred. Please try again.",
+    "genericConflict": "There was a conflict with the provided data. Please check your input and try again.",
+    "unauthorized": "You are not authorized to perform this action. Please log in again.",
+    "forbidden": "You don't have permission to perform this action.",
+    "notFound": "Role not found.",
+    "validationError": "Validation error. Please check your input.",
+    "serverError": "Server error. Please try again later."
+  },
+  "permissions": {
+    "selectedCount": "{{count}} permission(s) selected",
+    "placeholder": "Select permissions...",
+    "searchPlaceholder": "Search permissions...",
+    "loading": "Loading permissions...",
+    "noResults": "No permissions found",
+    "noData": "No permissions available",
+    "clearAll": "Clear all"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "page": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your business performance"
+  },
+  "header": {
+    "location": "Location",
+    "selectLocation": "Select Location"
+  },
+  "stats": {
+    "activeStores": "Active Stores",
+    "todaysOrders": "Today's Orders",
+    "todaysSales": "Today's Sales",
+    "inventoryItems": "Inventory Items",
+    "inventoryValue": "Inventory Value",
+    "totalInventoryCost": "total inventory cost",
+    "lowStockItems": "Low Stock Inventory",
+    "belowLimit": "below limit",
+    "totalCustomers": "Total Customers",
+    "cashRegisters": "cash registers",
+    "thisMonth": "this month",
+    "lowStock": "low stock",
+    "active": "active"
+  },
+  "charts": {
+    "dateFrom": "From",
+    "dateTo": "To",
+    "loading": "Loading…",
+    "periodHint": "Period (UTC) for charts",
+    "salesTrend": {
+      "title": "Sales trend",
+      "subtitle": "Daily sales amount and order count",
+      "sales": "Sales",
+      "orders": "Orders",
+      "ordersLabel": "orders"
+    },
+    "revenue": {
+      "title": "Daily revenue",
+      "subtitle": "Revenue in the selected period",
+      "revenue": "Revenue",
+      "branch": "Branch",
+      "selectBranch": "All branches"
+    },
+    "topProducts": {
+      "title": "Top 10 products",
+      "subtitle": "Most units sold in the period",
+      "empty": "No sales in this period",
+      "totalRevenue": "Total revenue"
+    },
+    "stockInCost": {
+      "title": "Incoming stock cost",
+      "subtitle": "Daily cost of stock added in the selected period",
+      "totalLabel": "Period total",
+      "series": "Incoming cost"
+    },
+    "salesTotal": {
+      "title": "Total sales amount",
+      "subtitle": "Daily sales amount within the selected period",
+      "totalLabel": "Period total",
+      "series": "Sales in period"
+    }
+  },
+  "cards": {
+    "inventory": {
+      "title": "Inventory Status",
+      "subtitle": "Stock level overview",
+      "lowStockItems": "Low Stock Items",
+      "totalItems": "Total Items",
+      "trackedItems": "tracked items",
+      "viewLowStock": "View Low Stock Items"
+    },
+    "recentOrders": {
+      "title": "Recent Orders",
+      "subtitle": "Latest transactions",
+      "viewAll": "View All Orders",
+      "noOrders": "No recent orders",
+      "walkInCustomer": "Walk-in Customer"
+    }
+  },
+  "trends": {
+    "vsLastMonth": "vs last month"
+  }
+}

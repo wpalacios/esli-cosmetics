@@ -1,0 +1,93 @@
+{
+  "page": {
+    "title": "Supplier Orders",
+    "subtitle": "Manage your supplier purchase orders",
+    "addButton": "Add Supplier Order",
+    "searchPlaceholder": "Search by Supplier Order ID or Supplier Name",
+    "filters": "Filters"
+  },
+  "modal": {
+    "createTitle": "Create Supplier Order",
+    "editTitle": "Edit Supplier Order",
+    "createDesc": "Create a new supplier order by filling out the form below.",
+    "editDesc": "Update the supplier order information below.",
+    "generalData": "General Information",
+    "selectProducts": "Select Products",
+    "orderDetail": "Order Detail",
+    "itemsSelected": "items selected",
+    "orderCreated": "Order Created Successfully!"
+  },
+  "form": {
+    "supplier": "Supplier",
+    "supplierRequired": "Supplier is required",
+    "supplierPlaceholder": "Select a supplier...",
+    "branch": "Branch",
+    "branchRequired": "Branch is required",
+    "branchPlaceholder": "Select a branch...",
+    "status": "Status",
+    "statusPlaceholder": "Select status...",
+    "expectedDate": "Expected Delivery Date",
+    "expectedDatePlaceholder": "Select expected date...",
+    "items": "Order Items",
+    "addItem": "Add Item",
+    "productVariant": "Product Variant",
+    "productVariantPlaceholder": "Select product variant...",
+    "quantity": "Quantity",
+    "quantityRequired": "Quantity is required",
+    "unitCost": "Cost",
+    "unitCostPlaceholder": "Enter unit cost",
+    "removeItem": "Remove",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update Order",
+    "create": "Create Order",
+    "printReceipt": "Print Receipt",
+    "close": "Close"
+  },
+  "validation": {
+    "noItems": "You must select at least one item to create the order."
+  },
+  "table": {
+    "title": "Supplier Orders List",
+    "orderId": "Order ID",
+    "supplier": "Supplier",
+    "branch": "Branch",
+    "status": "Status",
+    "expectedDate": "Expected Date",
+    "selectedProducts": "Selected Products",
+    "product": "Product",
+    "total": "Total",
+    "createdAt": "Created At",
+    "estimatedTotal": "Unitary Total Cost",
+    "noProductsSelected": "No products selected",
+    "actions": "Actions",
+    "noData": "No supplier orders found",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "exportPdf": "Export PDF",
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to",
+    "results": "results"
+  },
+  "toast": {
+    "success": "Success",
+    "created": "Supplier order created successfully",
+    "updated": "Supplier order updated successfully",
+    "deleted": "Supplier order deleted successfully",
+    "error": "Error",
+    "errorDesc": "An error occurred",
+    "deleteFailed": "Failed to delete supplier order",
+    "exported": "Supplier order PDF exported"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Supplier Order",
+    "deleteDesc": "Are you sure you want to delete this supplier order? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  }
+}

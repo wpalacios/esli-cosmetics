@@ -1,0 +1,83 @@
+{
+  "page": {
+    "title": "Catálogo de precios",
+    "subtitle": "Gestiona los diferentes tipos de precios que serán aplicados a clientes y productos",
+    "addButton": "Crear Nuevo Precio",
+    "searchPlaceholder": "Buscar precio por nombre o descripción"
+  },
+  "modal": {
+    "createTitle": "Crear Nuevo Precio",
+    "editTitle": "Editar Precio",
+    "priceDetails": "Detalles del Precio",
+    "loadingPrices": "Cargando precios...",
+    "noPrices": "No hay precios registrados aún"
+  },
+  "form": {
+    "priceName": "Nombre de la Lista de Precio",
+    "priceNamePlaceholder": "Ej. Precio al por mayor",
+    "priceNameRequired": "El nombre de la lista es obligatorio",
+    "minQuantity": "Cantidad Mínima",
+    "priority": "Prioridad",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Agrega una descripción opcional",
+    "active": "Activo",
+    "create": "Crear Precio",
+    "update": "Actualizar Precio",
+    "saving": "Guardando...",
+    "updating": "Actualizando...",
+    "cancel": "Cancelar"
+  },
+  "table": {
+    "title": "Listas de Precios",
+    "name": "Nombre",
+    "minQuantity": "Cantidad Mínima",
+    "description": "Descripción",
+    "priority": "Prioridad",
+    "status": "Estado",
+    "createdAt": "Fecha de Creación",
+    "actions": "Acciones",
+    "noData": "No se encontraron precios registrados",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "error": "Error al cargar precios. Por favor intenta de nuevo.",
+    "page": "Página",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "Resultados"
+  },
+  "toast": {
+    "created": "Precio creado exitosamente",
+    "updated": "Precio actualizado exitosamente",
+    "deleted": "Precio eliminado exitosamente",
+    "deleteFailed": "Error al eliminar el precio",
+    "deleteFailedDesc": "No se pudo eliminar el precio. Intenta de nuevo.",
+    "createdDesc": "{{name}} ha sido creado exitosamente.",
+    "updatedDesc": "{{name}} ha sido actualizado exitosamente.",
+    "deletedDesc": "{{name}} ha sido eliminado exitosamente."
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Precio",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar la lista de precio \"{{name}}\"? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "minLength": "Debe tener al menos {{min}} caracteres",
+    "maxLength": "No debe tener más de {{max}} caracteres",
+    "duplicateName": "Ya existe un precio con ese nombre",
+    "minQuantityInvalid": "La Cantidad Mínima debe ser un número válido.",
+    "minQuantityInteger": "La Cantidad Mínima debe ser un número entero.",
+    "minQuantityMin": "La Cantidad Mínima debe ser al menos 1.",
+    "priorityInvalid": "La Prioridad debe ser un número válido.",
+    "priorityInteger": "La Prioridad debe ser un número entero.",
+    "priorityMin": "La Prioridad debe ser al menos 1.",
+    "duplicatePriority": "Ya existe un precio con esa prioridad. Elige una diferente.",
+    "genericConflict": "Conflicto al guardar. Por favor verifica los datos ingresados (Error 409)."
+  }
+}

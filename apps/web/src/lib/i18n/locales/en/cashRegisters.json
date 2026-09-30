@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Cash Registers",
+    "description": "Manage cash registers for your locations",
+    "newCashRegister": "New Cash Register",
+    "searchPlaceholder": "Search cash registers..."
+  },
+  "table": {
+    "title": "Cash Registers",
+    "name": "Name",
+    "code": "Code",
+    "location": "Location",
+    "status": "Active",
+    "sessionStatus": "Session Status",
+    "created": "Created",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "viewSession": "View Session",
+    "active": "Active",
+    "inactive": "Inactive",
+    "open": "Open",
+    "closed": "Closed",
+    "noData": "No cash registers found",
+    "noLocation": "No location"
+  },
+  "modal": {
+    "createTitle": "Create Cash Register",
+    "createDesc": "Add a new cash register to your system",
+    "editTitle": "Edit Cash Register",
+    "editDesc": "Update cash register information"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Enter cash register name",
+    "code": "Code",
+    "codePlaceholder": "Enter code (optional)",
+    "location": "Location",
+    "locationPlaceholder": "Select location",
+    "isActive": "Active",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "saving": "Saving...",
+    "locationRequired": "Location is required"
+  },
+  "toast": {
+    "success": "Success",
+    "created": "Cash register created successfully",
+    "updated": "Cash register updated successfully",
+    "deleted": "Cash register deleted successfully",
+    "error": "Error",
+    "errorDesc": "An error occurred",
+    "deleteFailed": "Failed to delete cash register",
+    "deleteFailedDesc": "Failed to delete {{name}}"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Cash Register",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "page": {
+    "title": "Mi Perfil",
+    "subtitle": "Administra tu información personal y configuración de cuenta",
+    "errorLoading": "Error al cargar la información del perfil. Por favor, inténtalo de nuevo más tarde."
+  },
+  "form": {
+    "personalInfoHeading": "Información Personal",
+    "securityHeading": "Configuración de Seguridad",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Ingresa tu nombre",
+    "firstNameRequired": "El nombre es requerido",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Ingresa tu apellido",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "emailRequired": "El correo electrónico es requerido",
+    "emailInvalid": "Por favor ingresa un correo electrónico válido",
+    "phone": "Teléfono",
+    "phonePlaceholder": "Ingresa tu número de teléfono",
+    "resetPassword": "Nueva Contraseña",
+    "resetPasswordPlaceholder": "Ingresa nueva contraseña (deja vacío para mantener la actual)",
+    "resetPasswordHint": "Deja vacío para mantener la contraseña actual. Ingresa nueva contraseña (mín. 6 caracteres) para restablecer.",
+    "passwordConfirmation": "Confirmar Contraseña",
+    "passwordConfirmationPlaceholder": "Reingresa la contraseña para confirmar",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "passwordMinLength": "La contraseña debe tener al menos 6 caracteres",
+    "update": "Actualizar Perfil",
+    "saving": "Guardando...",
+    "genericError": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+    "genericConflict": "Ocurrió un conflicto. Por favor, verifica tus datos.",
+    "unauthorized": "No estás autorizado para realizar esta acción.",
+    "forbidden": "Acceso prohibido.",
+    "notFound": "Recurso no encontrado.",
+    "validationError": "Error de validación. Por favor, verifica tu entrada.",
+    "serverError": "Error del servidor. Por favor, inténtalo de nuevo más tarde."
+  },
+  "toast": {
+    "success": "Éxito",
+    "error": "Error",
+    "profileUpdated": "Tu perfil ha sido actualizado exitosamente.",
+    "updateFailed": "Error al actualizar el perfil. Por favor, inténtalo de nuevo."
+  }
+}

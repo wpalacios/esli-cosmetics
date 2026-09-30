@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "Categorías",
+    "subtitle": "Gestiona las categorías de productos y su estructura",
+    "addButton": "Agregar Categoría",
+    "searchPlaceholder": "Buscar por nombre de categoría...",
+    "filters": "Filtros",
+    "error": {
+      "loadFailed": "Error al cargar categorías. Por favor intenta de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "form": {
+    "categoryInfo": "Información de Categoría",
+    "name": "Nombre",
+    "nameRequired": "El nombre de la categoría es requerido",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Descripción corta...",
+    "parentCategory": "Categoría Relacionada",
+    "parentLabel": "Categoría Principal",
+    "parentCategoryNone": "Ninguna",
+    "searchCategories": "Buscar categorías...",
+    "noCategoriesFound": "No se encontraron categorías",
+    "loadingCategories": "Cargando categorías...",
+    "isActive": "Activa",
+    "activeStatus": "La categoría está activa",
+    "inactiveStatus": "La categoría está inactiva",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "updateCategory": "Actualizar Categoría",
+    "createCategory": "Crear Categoría",
+    "duplicateNameError": "Ya existe una categoría con este nombre"
+  },
+  "table": {
+    "name": "Nombre",
+    "slug": "Slug",
+    "parent": "Categoría Relacionada",
+    "products": "Productos",
+    "status": "Estado",
+    "actions": "Acciones",
+    "noData": "No se encontraron categorías",
+    "loading": "Cargando categorías...",
+    "active": "Activa",
+    "inactive": "Inactiva",
+    "noParent": "Sin categoría relacionada",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "createdAt": "Fecha de Creación",
+    "description": "Descripción",
+    "page": "Página",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados"
+  },
+  "modal": {
+    "createTitle": "Crear Categoría",
+    "editTitle": "Editar Categoría"
+  },
+  "toast": {
+    "created": "Categoría Creada",
+    "createdDesc": "{{name}} ha sido creada exitosamente.",
+    "updated": "Categoría Actualizada",
+    "updatedDesc": "{{name}} ha sido actualizada exitosamente.",
+    "deleted": "Categoría Eliminada",
+    "deletedDesc": "{{name}} ha sido eliminada exitosamente.",
+    "deleteFailed": "Error al Eliminar",
+    "deleteFailedDesc": "No se pudo eliminar {{name}}. Por favor intenta de nuevo."
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Categoría",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  }
+}

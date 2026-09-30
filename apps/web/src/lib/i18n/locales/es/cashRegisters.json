@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Cajas Registradoras",
+    "description": "Gestiona las cajas registradoras para tus ubicaciones",
+    "newCashRegister": "Agregar Caja Registradora",
+    "searchPlaceholder": "Buscar cajas registradoras..."
+  },
+  "table": {
+    "title": "Cajas Registradoras",
+    "name": "Nombre",
+    "code": "Código",
+    "location": "Ubicación",
+    "status": "Activo",
+    "sessionStatus": "Estado de Sesión",
+    "created": "Creado",
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "viewSession": "Ver Sesión",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "open": "Abierto",
+    "closed": "Cerrado",
+    "noData": "No se encontraron cajas registradoras",
+    "noLocation": "Sin ubicación"
+  },
+  "modal": {
+    "createTitle": "Crear Caja Registradora",
+    "createDesc": "Agrega una nueva caja registradora a tu sistema",
+    "editTitle": "Editar Caja Registradora",
+    "editDesc": "Actualiza la información de la caja registradora"
+  },
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa el nombre de la caja registradora",
+    "code": "Código",
+    "codePlaceholder": "Ingresa el código (opcional)",
+    "location": "Ubicación",
+    "locationPlaceholder": "Selecciona una ubicación",
+    "isActive": "Activo",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "saving": "Guardando...",
+    "locationRequired": "La ubicación es requerida"
+  },
+  "toast": {
+    "success": "Éxito",
+    "created": "Caja registradora creada exitosamente",
+    "updated": "Caja registradora actualizada exitosamente",
+    "deleted": "Caja registradora eliminada exitosamente",
+    "error": "Error",
+    "errorDesc": "Ocurrió un error",
+    "deleteFailed": "Error al eliminar caja registradora",
+    "deleteFailedDesc": "Error al eliminar {{name}}"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Caja Registradora",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página"
+  }
+}

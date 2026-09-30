@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Categories",
+    "subtitle": "Manage your product categories and structure",
+    "addButton": "Add Category",
+    "searchPlaceholder": "Search by category name...",
+    "filters": "Filters",
+    "error": {
+      "loadFailed": "Failed to load categories. Please try again.",
+      "retry": "Retry"
+    }
+  },
+  "form": {
+    "categoryInfo": "Category Information",
+    "name": "Name",
+    "nameRequired": "Category name is required",
+    "description": "Description",
+    "descriptionPlaceholder": "Short description...",
+    "parentCategory": "Parent Category",
+    "parentCategoryNone": "None",
+    "searchCategories": "Search categories...",
+    "noCategoriesFound": "No categories found",
+    "loadingCategories": "Loading categories...",
+    "isActive": "Active",
+    "activeStatus": "Category is active and visible",
+    "inactiveStatus": "Category is inactive and hidden",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updateCategory": "Update Category",
+    "createCategory": "Create Category",
+    "duplicateNameError": "A category with this name already exists",
+    "parentLabel": "Main Category"
+  },
+  "table": {
+    "name": "Name",
+    "slug": "Slug",
+    "parent": "Parent",
+    "products": "Products",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No categories found",
+    "loading": "Loading categories...",
+    "active": "Active",
+    "inactive": "Inactive",
+    "noParent": "No parent",
+    "edit": "Edit",
+    "delete": "Delete",
+    "createdAt": "Created At",
+    "description": "Description"
+  },
+  "modal": {
+    "createTitle": "Create Category",
+    "editTitle": "Edit Category"
+  },
+  "toast": {
+    "created": "Category Created",
+    "createdDesc": "{{name}} has been successfully created.",
+    "updated": "Category Updated",
+    "updatedDesc": "{{name}} has been successfully updated.",
+    "deleted": "Category Deleted",
+    "deletedDesc": "{{name}} has been successfully deleted.",
+    "deleteFailed": "Delete Failed",
+    "deleteFailedDesc": "Failed to delete {{name}}. Please try again."
+  },
+  "confirm": {
+    "deleteTitle": "Delete Category",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  }
+}

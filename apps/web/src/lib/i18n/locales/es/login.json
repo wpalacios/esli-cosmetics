@@ -1,0 +1,25 @@
+{
+  "welcomeTitle": "Bienvenido a Esli Cosmetics",
+  "welcomeSubtitle": "Aquí puedes gestionar el inventario y las ventas de tu empresa",
+  "title": "Iniciar Sesión",
+  "subtitle": "Ingresa tus credenciales para acceder al sistema",
+  "email": "Correo Electrónico",
+  "password": "Contraseña",
+  "rememberMe": "Recordarme",
+  "loginButton": "Iniciar Sesión",
+  "signingIn": "Iniciando sesión...",
+  "validation": {
+    "emailRequired": "El correo electrónico es requerido",
+    "emailInvalid": "Correo electrónico inválido",
+    "passwordMin": "La contraseña debe tener al menos 6 caracteres"
+  },
+  "errors": {
+    "INVALID_CREDENTIALS": "Correo electrónico o contraseña inválidos. Por favor verifica tus credenciales e intenta nuevamente.",
+    "VALIDATION_ERROR": "Por favor proporciona tanto el correo electrónico como la contraseña.",
+    "NETWORK_ERROR": "No se pudo conectar al servidor. Por favor verifica tu conexión a internet e intenta nuevamente.",
+    "ACCOUNT_LOCKED": "Tu cuenta ha sido bloqueada. Por favor contacta al soporte.",
+    "ACCOUNT_INACTIVE": "Tu cuenta está inactiva. Por favor contacta al soporte.",
+    "UNKNOWN_ERROR": "Ocurrió un error inesperado. Por favor intenta nuevamente más tarde.",
+    "default": "Error al iniciar sesión. Por favor intenta nuevamente."
+  }
+}

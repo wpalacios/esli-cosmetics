@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Permisos",
+    "subtitle": "Gestionar permisos del sistema",
+    "addButton": "Agregar Permiso"
+  },
+  "table": {
+    "title": "Lista de Permisos",
+    "key": "Código",
+    "name": "Nombre",
+    "description": "Descripción",
+    "created": "Creado",
+    "actions": "Acciones",
+    "noData": "No hay permisos",
+    "edit": "Editar",
+    "delete": "Eliminar"
+  },
+  "toast": {
+    "success": "Éxito",
+    "deleted": "Permiso eliminado exitosamente",
+    "error": "Error",
+    "deleteFailed": "Error al eliminar permiso"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Permiso",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página"
+  },
+  "modal": {
+    "createTitle": "Crear Permiso",
+    "editTitle": "Editar Permiso",
+    "createDesc": "Agregar un nuevo permiso al sistema",
+    "editDesc": "Actualizar información del permiso"
+  },
+  "form": {
+    "key": "Código",
+    "keyRequired": "El Código del permiso es requerido",
+    "keyPlaceholder": "ej., productos.crear",
+    "keyImmutable": "El Código no puede cambiarse después de la creación",
+    "name": "Nombre",
+    "nameRequired": "El nombre del permiso es requerido",
+    "namePlaceholder": "ej., Crear Productos",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingrese descripción (opcional)",
+    "cancel": "Cancelar",
+    "update": "Actualizar Permiso",
+    "create": "Crear Permiso",
+    "success": "Éxito",
+    "created": "Permiso creado exitosamente",
+    "updated": "Permiso actualizado exitosamente",
+    "error": "Error",
+    "saveFailed": "Error al guardar permiso",
+    "saving": "Guardando...",
+    "genericError": "Ocurrió un error inesperado. Por favor, intente nuevamente.",
+    "genericConflict": "Hubo un conflicto con los datos proporcionados. Por favor, verifique su entrada e intente nuevamente.",
+    "unauthorized": "No está autorizado para realizar esta acción. Por favor, inicie sesión nuevamente.",
+    "forbidden": "No tiene permiso para realizar esta acción.",
+    "notFound": "Permiso no encontrado.",
+    "validationError": "Error de validación. Por favor, verifique su entrada.",
+    "serverError": "Error del servidor. Por favor, intente más tarde."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Empleados",
+    "subtitle": "Gestiona los miembros de tu equipo y su información",
+    "addButton": "Agregar Empleado",
+    "searchPlaceholder": "Buscar por nombre, código de empleado o rol...",
+    "filters": "Filtros",
+    "error": {
+      "loadFailed": "Error al cargar empleados. Por favor intenta de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "form": {
+    "personalInfo": "Información Personal",
+    "employmentInfo": "Información Laboral",
+    "firstName": "Nombre",
+    "firstNameRequired": "El nombre es requerido",
+    "lastName": "Apellido",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "emailInvalid": "Correo electrónico inválido",
+    "docType": "Tipo de Documento",
+    "docTypePlaceholder": "Tipo de documento",
+    "docTypePassport": "Pasaporte",
+    "docTypeId": "Cédula",
+    "docNumber": "Número de Documento",
+    "employeeCode": "Código de Empleado",
+    "employeeCodePlaceholder": "ej., EMP001",
+    "roleTitle": "Cargo",
+    "roleTitlePlaceholder": "ej., Representante de Ventas",
+    "branch": "Sucursal",
+    "branchPlaceholder": "Selecciona una sucursal...",
+    "hireDate": "Fecha de Contratación",
+    "userId": "ID de Usuario (para acceso al sistema)",
+    "userIdPlaceholder": "UUID del usuario",
+    "isActive": "Empleado Activo",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "updateEmployee": "Actualizar Empleado",
+    "createEmployee": "Crear Empleado",
+    "duplicateCodeError": "Ya existe un empleado con este código",
+    "duplicateDocumentError": "Ya existe una persona con este documento",
+    "duplicateEmailError": "Ya existe una persona con este correo electrónico",
+    "checkingCode": "Verificando código...",
+    "checkingDocument": "Verificando documento...",
+    "checkingEmail": "Verificando correo electrónico...",
+    "location": "Ubicación",
+    "locationPlaceholder": "Seleccionar una ubicación..."
+  },
+  "table": {
+    "name": "Nombre",
+    "employeeCode": "Código",
+    "role": "Cargo",
+    "branch": "Sucursal",
+    "location": "Ubicación",
+    "hireDate": "Fecha de Contratación",
+    "status": "Estado",
+    "actions": "Acciones",
+    "noData": "No se encontraron empleados",
+    "loading": "Cargando empleados...",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "noBranch": "Sin sucursal",
+    "hiredDate": "Fecha de Contratación",
+    "noRole": "Sin cargo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "title": "Empleados"
+  },
+  "modal": {
+    "createTitle": "Crear Empleado",
+    "editTitle": "Editar Empleado"
+  },
+  "toast": {
+    "created": "Empleado Creado",
+    "createdDesc": "{{name}} ha sido creado exitosamente.",
+    "updated": "Empleado Actualizado",
+    "updatedDesc": "{{name}} ha sido actualizado exitosamente.",
+    "deleted": "Empleado Eliminado",
+    "deletedDesc": "{{name}} ha sido eliminado exitosamente.",
+    "deleteFailed": "Error al Eliminar",
+    "deleteFailedDesc": "No se pudo eliminar {{name}}. Por favor intenta de nuevo."
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Empleado",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar a {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  }
+}

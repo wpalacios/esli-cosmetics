@@ -1,0 +1,11 @@
+{
+  "extends": "@esli-cosmetics/config/typescript/base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "lib": ["DOM", "DOM.Iterable", "ES2017", "ES2017.String"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
+}

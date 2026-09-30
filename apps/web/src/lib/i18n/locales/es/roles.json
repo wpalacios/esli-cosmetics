@@ -1,0 +1,83 @@
+{
+  "page": {
+    "title": "Roles",
+    "subtitle": "Gestionar roles del sistema",
+    "addButton": "Agregar Rol"
+  },
+  "table": {
+    "title": "Lista de Roles",
+    "key": "Código",
+    "name": "Nombre",
+    "description": "Descripción",
+    "permissions": "Permisos",
+    "created": "Creado",
+    "actions": "Acciones",
+    "noData": "No hay roles",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "more": "más"
+  },
+  "toast": {
+    "success": "Éxito",
+    "deleted": "Rol eliminado exitosamente",
+    "error": "Error",
+    "deleteFailed": "Error al eliminar rol"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Rol",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página"
+  },
+  "modal": {
+    "createTitle": "Crear Rol",
+    "editTitle": "Editar Rol",
+    "createDesc": "Agregar un nuevo rol al sistema",
+    "editDesc": "Actualizar información del rol"
+  },
+  "form": {
+    "key": "Código",
+    "keyRequired": "El Código del rol es requerido",
+    "keyPlaceholder": "ej., gerente_tienda",
+    "keyImmutable": "El Código no puede cambiarse después de la creación",
+    "name": "Nombre",
+    "nameRequired": "El nombre del rol es requerido",
+    "namePlaceholder": "ej., Gerente de Tienda",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingrese descripción (opcional)",
+    "permissions": "Permisos",
+    "cancel": "Cancelar",
+    "update": "Actualizar Rol",
+    "create": "Crear Rol",
+    "success": "Éxito",
+    "created": "Rol creado exitosamente",
+    "updated": "Rol actualizado exitosamente",
+    "error": "Error",
+    "saveFailed": "Error al guardar rol",
+    "saving": "Guardando...",
+    "genericError": "Ocurrió un error inesperado. Por favor, intente nuevamente.",
+    "genericConflict": "Hubo un conflicto con los datos proporcionados. Por favor, verifique su entrada e intente nuevamente.",
+    "unauthorized": "No está autorizado para realizar esta acción. Por favor, inicie sesión nuevamente.",
+    "forbidden": "No tiene permiso para realizar esta acción.",
+    "notFound": "Rol no encontrado.",
+    "validationError": "Error de validación. Por favor, verifique su entrada.",
+    "serverError": "Error del servidor. Por favor, intente más tarde."
+  },
+  "permissions": {
+    "selectedCount": "{{count}} permiso(s) seleccionado(s)",
+    "placeholder": "Seleccionar permisos...",
+    "searchPlaceholder": "Buscar permisos...",
+    "loading": "Cargando permisos...",
+    "noResults": "No se encontraron permisos",
+    "noData": "No hay permisos disponibles",
+    "clearAll": "Limpiar todo"
+  }
+}

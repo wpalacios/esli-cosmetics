@@ -1,0 +1,108 @@
+{
+  "title": "Cash Register",
+  "description": "Manage your cash register sessions and movements",
+  "loading": "Loading...",
+  "status": {
+    "title": "Cash Register Status",
+    "open": "Open",
+    "closed": "Closed",
+    "register": "Register",
+    "employee": "Employee",
+    "systemTotal": "System Total",
+    "unknown": "Unknown",
+    "noRegisters": "No cash registers available for your location"
+  },
+  "actions": {
+    "open": "Open Session",
+    "openCashRegister": "Open Cash Register",
+    "close": "Close Session",
+    "createMovement": "Create Cash Movement"
+  },
+  "open": {
+    "title": "Open Cash Session",
+    "cashRegister": "Cash Register",
+    "selectRegister": "Select a cash register",
+    "searchRegister": "Search cash registers...",
+    "noRegistersFound": "No cash registers found",
+    "openingBalance": "Opening Balance",
+    "submit": "Open Session",
+    "selectLocation": "Select a location first"
+  },
+  "close": {
+    "title": "Close Cash Session",
+    "systemTotal": "System Total",
+    "closingBalance": "Closing Balance",
+    "difference": "Difference",
+    "overage": "Overage (more cash than expected)",
+    "shortage": "Shortage (less cash than expected)",
+    "notes": "Notes",
+    "notesPlaceholder": "Add any notes about the closing...",
+    "submit": "Close Session",
+    "printReport": "Print Report",
+    "orders": "Orders",
+    "movements": "Cash Movements",
+    "orderNumber": "Order Number",
+    "date": "Date",
+    "amount": "Amount",
+    "type": "Type",
+    "reason": "Reason",
+    "cashIn": "Cash In",
+    "cashOut": "Cash Out",
+    "total": "Total",
+    "noOrders": "No orders found",
+    "noMovements": "No cash movements found",
+    "orderType": "Order Type",
+    "cash": "Cash",
+    "credit": "Credit",
+    "initialPayment": "Initial Payment",
+    "creditInstallmentPayments": "Credit Installment Payments",
+    "installmentNo": "Installment #",
+    "noCreditInstallmentPayments": "No credit installment payments found"
+  },
+  "session": {
+    "details": "Session Details",
+    "openedAt": "Opened At",
+    "openingBalance": "Opening Balance",
+    "systemTotal": "System Total",
+    "sessionAlreadyOpen": "There is already an open session for this cash register.",
+    "accessToRegister": "Access Cash Register"
+  },
+  "movements": {
+    "title": "Cash Movements",
+    "noMovements": "No cash movements recorded",
+    "cashIn": "Cash In",
+    "cashOut": "Cash Out"
+  },
+  "messages": {
+    "sessionOpened": "Cash session opened successfully",
+    "sessionClosed": "Cash session closed successfully",
+    "reportPrinted": "Report printed successfully",
+    "movementCreated": "Cash movement created successfully",
+    "error": "Error",
+    "openFailed": "Failed to open cash session",
+    "closeFailed": "Failed to close cash session",
+    "createMovementFailed": "Failed to create cash movement"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "loading": "Loading..."
+  },
+  "validation": {
+    "cashRegisterRequired": "Cash register is required",
+    "openingBalanceMin": "Opening balance must be 0 or greater",
+    "closingBalanceMin": "Closing balance must be 0 or greater",
+    "movementTypeRequired": "Movement type is required",
+    "amountMin": "Amount must be at least 0.01",
+    "amountPositive": "Amount must be positive"
+  },
+  "movement": {
+    "title": "Create Cash Movement",
+    "type": "Type",
+    "typeIn": "Cash In",
+    "typeOut": "Cash Out",
+    "amount": "Amount",
+    "reason": "Reason (Optional)",
+    "reasonPlaceholder": "Enter reason for this movement...",
+    "submit": "Create Movement"
+  }
+}

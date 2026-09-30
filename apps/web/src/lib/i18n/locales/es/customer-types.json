@@ -1,0 +1,73 @@
+{
+  "title": "Tipos de Cliente",
+  "description": "Gestiona los diferentes tipos de clientes",
+  "createButton": "Crear Tipo de Cliente",
+  "searchPlaceholder": "Buscar por nombre o descripción...",
+  "modal": {
+    "createTitle": "Crear Nuevo Tipo de Cliente",
+    "editTitle": "Editar Tipo de Cliente"
+  },
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "ej. Mayorista",
+    "nameRequired": "El nombre es obligatorio",
+    "nameMinLength": "El nombre debe tener al menos 2 caracteres",
+    "nameMaxLength": "El nombre no debe exceder 255 caracteres",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Agrega una descripción opcional",
+    "descriptionMaxLength": "La descripción no debe exceder 255 caracteres",
+    "isActive": "Activo",
+    "create": "Crear Tipo de Cliente",
+    "update": "Actualizar Tipo de Cliente",
+    "saving": "Guardando...",
+    "updating": "Actualizando...",
+    "cancel": "Cancelar",
+    "nameExists": "Ya existe un tipo de cliente con ese nombre."
+  },
+  "table": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "status": "Estado",
+    "createdAt": "Fecha de Creación",
+    "actions": "Acciones",
+    "noDataTitle": "No se encontraron tipos de cliente",
+    "noDataMessage": "Comienza creando tu primer tipo de cliente.",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "deleteConfirmTitle": "Eliminar Tipo de Cliente",
+    "deleteConfirmMessage": "¿Estás seguro de que quieres eliminar \"{{name}}\"? Esta acción no se puede deshacer.",
+    "deleteSuccess": "Tipo de Cliente Eliminado",
+    "deleteSuccessMessage": "{{name}} ha sido eliminado exitosamente.",
+    "deleteError": "Error",
+    "deleteErrorMessage": "Error al eliminar el tipo de cliente. Por favor intenta de nuevo.",
+    "title": "Tipos de Cliente"
+  },
+  "pagination": {
+    "showing": "Mostrando {{start}} a {{end}} de {{total}} resultados",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "success": {
+    "created": "Tipo de Cliente Creado",
+    "updated": "Tipo de Cliente Actualizado",
+    "deleted": "Tipo de Cliente Eliminado",
+    "updatedMessage": "{{name}} ha sido actualizado exitosamente.",
+    "createdMessage": "{{name}} ha sido creado exitosamente.",
+    "deleteMessage": "El tipo de cliente ha sido eliminado exitosamente."
+  },
+  "error": {
+    "title": "Error",
+    "message": "Ocurrió un error al procesar tu solicitud",
+    "deleteFailed": "Error al eliminar el tipo de cliente",
+    "inUse": "No se puede eliminar '{{name}}' porque está siendo usado por clientes",
+    "notFound": "Tipo de cliente no encontrado"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Tipo de Cliente",
+    "deleteDesc": "¿Estás seguro de que quieres eliminar '{{name}}'? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  }
+}

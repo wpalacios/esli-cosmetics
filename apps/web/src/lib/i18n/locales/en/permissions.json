@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Permissions",
+    "subtitle": "Manage system permissions",
+    "addButton": "Add Permission"
+  },
+  "table": {
+    "title": "Permissions List",
+    "key": "Key",
+    "name": "Name",
+    "description": "Description",
+    "created": "Created",
+    "actions": "Actions",
+    "noData": "No permissions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "toast": {
+    "success": "Success",
+    "deleted": "Permission deleted successfully",
+    "error": "Error",
+    "deleteFailed": "Failed to delete permission"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Permission",
+    "deleteDesc": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "modal": {
+    "createTitle": "Create Permission",
+    "editTitle": "Edit Permission",
+    "createDesc": "Add a new permission to the system",
+    "editDesc": "Update permission information"
+  },
+  "form": {
+    "key": "Key",
+    "keyRequired": "Permission key is required",
+    "keyPlaceholder": "e.g., products.create",
+    "keyImmutable": "Key cannot be changed after creation",
+    "name": "Name",
+    "nameRequired": "Permission name is required",
+    "namePlaceholder": "e.g., Create Products",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter description (optional)",
+    "cancel": "Cancel",
+    "update": "Update Permission",
+    "create": "Create Permission",
+    "success": "Success",
+    "created": "Permission created successfully",
+    "updated": "Permission updated successfully",
+    "error": "Error",
+    "saveFailed": "Failed to save permission",
+    "saving": "Saving...",
+    "genericError": "An unexpected error occurred. Please try again.",
+    "genericConflict": "There was a conflict with the provided data. Please check your input and try again.",
+    "unauthorized": "You are not authorized to perform this action. Please log in again.",
+    "forbidden": "You don't have permission to perform this action.",
+    "notFound": "Permission not found.",
+    "validationError": "Validation error. Please check your input.",
+    "serverError": "Server error. Please try again later."
+  }
+}

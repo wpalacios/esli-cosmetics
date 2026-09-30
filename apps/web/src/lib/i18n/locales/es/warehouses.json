@@ -1,0 +1,86 @@
+{
+  "page": {
+    "title": "Bodegas",
+    "subtitle": "Gestiona tus bodegas",
+    "addButton": "Agregar Bodega",
+    "searchPlaceholder": "Buscar por nombre, dirección o contacto...",
+    "filters": "Filtros"
+  },
+  "modal": {
+    "createTitle": "Crear Bodega",
+    "editTitle": "Editar Bodega",
+    "createDesc": "Crea un nuevo bodega completando el formulario a continuación.",
+    "editDesc": "Actualiza la información de la bodega a continuación."
+  },
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa el nombre de la bodega",
+    "branch": "Sucursal",
+    "branchPlaceholder": "Selecciona una sucursal...",
+    "address": "Dirección",
+    "addressPlaceholder": "Ingresa la dirección",
+    "contact": "Contacto",
+    "contactPlaceholder": "Ingresa información de contacto",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "update": "Actualizar Bodega",
+    "create": "Crear Bodega"
+  },
+  "table": {
+    "title": "Lista de Bodegas",
+    "name": "Nombre",
+    "branch": "Sucursal",
+    "address": "Dirección",
+    "contact": "Contacto",
+    "created": "Creado",
+    "createdAt": "Fecha de Creación",
+    "actions": "Acciones",
+    "locationType": "Tipo de Ubicación",
+    "noData": "No se encontraron bodegas",
+    "noBranch": "Sin sucursal",
+    "noAddress": "Sin dirección",
+    "noContact": "Sin contacto",
+    "noLocationType": "Sin tipo",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "page": "Página",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados"
+  },
+  "locationTypes": {
+    "STORE": "Tienda",
+    "WAREHOUSE": "Bodega",
+    "DISTRIBUTION_CENTER": "Centro de Distribución",
+    "POPUP_STORE": "Tienda Temporal"
+  },
+  "toast": {
+    "success": "Éxito",
+    "created": "Bodega creada exitosamente",
+    "updated": "Bodega actualizada exitosamente",
+    "deleted": "Bodega eliminada exitosamente",
+    "error": "Error",
+    "errorDesc": "Ocurrió un error",
+    "duplicateName": "Ya existe una bodega con este nombre.",
+    "createFailed": "No se pudo crear la bodega",
+    "deleteFailed": "No se pudo eliminar la bodega"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Bodega",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar la bodega {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "toggleSidebar": "Toggle Sidebar",
+    "dashboard": "Dashboard"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "newCount": "{{count}} new",
+    "seeAll": "See all notifications",
+    "viewLabel": "View Notifications",
+    "loading": "Loading...",
+    "empty": "No notifications",
+    "noTitle": "No title",
+    "body": {
+      "low_stock": "{{productName}} is getting out of stock, current quantity: {{quantity}}"
+    }
+  },
+  "userMenu": {
+    "viewProfile": "View Profile",
+    "accountSettings": "Account Settings",
+    "logout": "Log out",
+    "menuLabel": "User menu"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  }
+}

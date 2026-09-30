@@ -1,0 +1,44 @@
+{
+  "page": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and account settings",
+    "errorLoading": "Failed to load profile information. Please try again later."
+  },
+  "form": {
+    "personalInfoHeading": "Personal Information",
+    "securityHeading": "Security Settings",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Enter your first name",
+    "firstNameRequired": "First name is required",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Enter your last name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "resetPassword": "New Password",
+    "resetPasswordPlaceholder": "Enter new password (leave empty to keep current)",
+    "resetPasswordHint": "Leave empty to keep current password. Enter new password (min. 6 characters) to reset.",
+    "passwordConfirmation": "Confirm Password",
+    "passwordConfirmationPlaceholder": "Re-enter password to confirm",
+    "passwordMismatch": "Passwords do not match",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "update": "Update Profile",
+    "saving": "Saving...",
+    "genericError": "An error occurred. Please try again.",
+    "genericConflict": "A conflict occurred. Please check your data.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "forbidden": "Access forbidden.",
+    "notFound": "Resource not found.",
+    "validationError": "Validation error. Please check your input.",
+    "serverError": "Server error. Please try again later."
+  },
+  "toast": {
+    "success": "Success",
+    "error": "Error",
+    "profileUpdated": "Your profile has been updated successfully.",
+    "updateFailed": "Failed to update profile. Please try again."
+  }
+}

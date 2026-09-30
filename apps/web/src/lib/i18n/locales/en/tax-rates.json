@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Tax Rates",
+    "subtitle": "Manage tax rates applied to sales and purchases.",
+    "addButton": "Add Tax Rate",
+    "searchPlaceholder": "Search by name or code...",
+    "error": {
+      "loadFailed": "Failed to load tax rates. Please try again.",
+      "retry": "Retry"
+    }
+  },
+  "modal": {
+    "taxRateDetails": "Tax Rate Details",
+    "createTitle": "Create Tax Rate",
+    "editTitle": "Edit Tax Rate"
+  },
+  "form": {
+    "taxRateName": "Name",
+    "taxRateNameRequired": "The tax rate name is required.",
+    "taxRateNamePlaceholder": "e.g., General VAT, Reduced Tax",
+    "taxCode": "Code",
+    "taxCodePlaceholder": "e.g., VAT-15, Exempt",
+    "ratePercentage": "Rate (%)",
+    "active": "Active",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update Tax Rate",
+    "create": "Create Tax Rate"
+  },
+  "table": {
+    "title": "Tax Rates",
+    "name": "Name",
+    "code": "Code",
+    "rate": "Rate",
+    "status": "Status",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "noData": "No tax rates found.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "toast": {
+    "created": "Tax Rate created successfully",
+    "updated": "Tax Rate updated successfully",
+    "deleted": "Tax Rate deleted successfully",
+    "deleteFailed": "Failed to delete tax rate",
+    "createdDesc": "The tax rate \"{{name}}\" has been created.",
+    "updatedDesc": "The tax rate \"{{name}}\" has been updated.",
+    "deletedDesc": "The tax rate \"{{name}}\" has been deleted.",
+    "deleteFailedDesc": "There was an error deleting the tax rate: {{name}}."
+  },
+  "confirm": {
+    "deleteTitle": "Delete Tax Rate",
+    "deleteDesc": "Are you sure you want to delete the tax rate \"{{name}}\"? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  },
+  "validation": {
+    "taxRateNameRequired": "The name of the tax rate is required.",
+    "taxRateInvalid": "The tax rate must be a valid number.",
+    "taxRateMin": "The tax rate must be 0% or higher.",
+    "taxRateMax": "The tax rate cannot exceed 100%.",
+    "duplicateName": "A tax rate with this name already exists.",
+    "duplicateCode": "A tax rate with this code already exists."
+  },
+  "common": {
+    "taxRate": "Tax Rate"
+  }
+}

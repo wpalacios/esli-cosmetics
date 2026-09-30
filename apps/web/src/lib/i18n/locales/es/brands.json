@@ -1,0 +1,67 @@
+{
+  "page": {
+    "title": "Marcas",
+    "subtitle": "Gestiona las marcas de productos y proveedores",
+    "addButton": "Agregar Marca",
+    "searchPlaceholder": "Buscar por nombre, descripción o país...",
+    "filters": "Filtros",
+    "error": {
+      "loadFailed": "Error al cargar las marcas. Inténtalo de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "form": {
+    "name": "Nombre de la Marca",
+    "namePlaceholder": "Ingresa el nombre de la marca...",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingresa la descripción de la marca...",
+    "websiteUrl": "URL del Sitio Web",
+    "websiteUrlPlaceholder": "https://www.marca.com",
+    "logoUrl": "URL del Logo",
+    "logoUrlPlaceholder": "https://ejemplo.com/logo.png",
+    "country": "País",
+    "countryPlaceholder": "Ingresa el país de origen...",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "create": "Crear Marca",
+    "update": "Actualizar Marca",
+    "duplicateNameError": "Ya existe una marca con este nombre"
+  },
+  "table": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "country": "País",
+    "website": "Sitio Web",
+    "createdAt": "Fecha de Creación",
+    "actions": "Acciones",
+    "noData": "No se encontraron marcas",
+    "loading": "Cargando marcas...",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver",
+    "noDescription": "Sin descripción",
+    "noCountry": "Sin país",
+    "noWebsite": "Sin sitio web"
+  },
+  "modal": {
+    "createTitle": "Crear Marca",
+    "editTitle": "Editar Marca"
+  },
+  "success": {
+    "created": "Marca Creada",
+    "createdDescription": "{{name}} ha sido creada exitosamente.",
+    "updated": "Marca Actualizada",
+    "updatedDescription": "{{name}} ha sido actualizada exitosamente."
+  },
+  "delete": {
+    "title": "Eliminar Marca",
+    "description": "¿Estás seguro de que quieres eliminar {{name}}? Esta acción no se puede deshacer.",
+    "confirm": "Eliminar",
+    "cancel": "Cancelar",
+    "success": "Marca Eliminada",
+    "successDescription": "{{name}} ha sido eliminada exitosamente.",
+    "error": "Error al Eliminar",
+    "errorDescription": "Error al eliminar la marca. Inténtalo de nuevo.",
+    "hasProducts": "No se puede eliminar la marca porque tiene productos asociados. Por favor, elimina todos los productos de esta marca primero."
+  }
+}

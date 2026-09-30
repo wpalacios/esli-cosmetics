@@ -1,0 +1,73 @@
+{
+  "title": "Customer Types",
+  "description": "Manage different types of customers and their pricing tiers",
+  "createButton": "Create Customer Type",
+  "searchPlaceholder": "Search by name or description...",
+  "modal": {
+    "createTitle": "Create New Customer Type",
+    "editTitle": "Edit Customer Type"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Mayorista",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 2 characters",
+    "nameMaxLength": "Name must not exceed 255 characters",
+    "description": "Description",
+    "descriptionPlaceholder": "Add an optional description",
+    "descriptionMaxLength": "Description must not exceed 255 characters",
+    "isActive": "Active",
+    "create": "Create Customer Type",
+    "update": "Update Customer Type",
+    "saving": "Saving...",
+    "updating": "Updating...",
+    "cancel": "Cancel",
+    "nameExists": "A customer type with this name already exists."
+  },
+  "table": {
+    "name": "Name",
+    "description": "Description",
+    "status": "Status",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "noDataTitle": "No customer types found",
+    "noDataMessage": "Get started by creating your first customer type.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Delete Customer Type",
+    "deleteConfirmMessage": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "deleteSuccess": "Customer Type Deleted",
+    "deleteSuccessMessage": "{{name}} has been deleted successfully.",
+    "deleteError": "Error",
+    "deleteErrorMessage": "Failed to delete customer type. Please try again.",
+    "title": "Customer Types"
+  },
+  "pagination": {
+    "showing": "Showing {{start}} to {{end}} of {{total}} results",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "success": {
+    "created": "Customer Type Created",
+    "updated": "Customer Type Updated",
+    "deleted": "Customer Type Deleted",
+    "updatedMessage": "{{name}} has been updated successfully.",
+    "createdMessage": "{{name}} has been created successfully.",
+    "deleteMessage": "Customer type has been deleted successfully."
+  },
+  "error": {
+    "title": "Error",
+    "message": "An error occurred while processing your request",
+    "deleteFailed": "Failed to delete customer type",
+    "inUse": "Cannot delete '{{name}}' because it is being used by customers",
+    "notFound": "Customer type not found"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Customer Type",
+    "deleteDesc": "Are you sure you want to delete '{{name}}'? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancel": "Cancel"
+  }
+}

@@ -1,0 +1,29 @@
+# Normalize line endings to LF in the repo (fixes Windows vs Mac diffs)
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+
+* text=auto eol=lf
+
+# Explicitly declare text files to always normalize to LF
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+
+# Denote binary files so Git doesn't try to change line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary

@@ -1,0 +1,117 @@
+{
+  "title": "Caja Registradora",
+  "description": "Gestiona tus sesiones y movimientos de caja registradora",
+  "loading": "Cargando...",
+  "status": {
+    "title": "Estado de Caja Registradora",
+    "open": "Abierta",
+    "closed": "Cerrada",
+    "register": "Registro",
+    "employee": "Empleado",
+    "systemTotal": "Total del Sistema",
+    "unknown": "Desconocido",
+    "noRegisters": "No hay cajas registradoras disponibles para tu ubicación"
+  },
+  "actions": {
+    "open": "Abrir Caja",
+    "openCashRegister": "Abrir Caja Registradora",
+    "close": "Cerrar Caja",
+    "createMovement": "Crear Movimiento de Efectivo"
+  },
+  "open": {
+    "title": "Abrir Caja",
+    "cashRegister": "Caja Registradora",
+    "selectRegister": "Selecciona una caja registradora",
+    "searchRegister": "Buscar cajas registradoras...",
+    "noRegistersFound": "No se encontraron cajas registradoras",
+    "openingBalance": "Saldo Inicial",
+    "submit": "Abrir Caja",
+    "selectLocation": "Selecciona una ubicación primero"
+  },
+  "close": {
+    "title": "Cerrar Caja",
+    "systemTotal": "Total del Sistema",
+    "closingBalance": "Saldo Final",
+    "difference": "Diferencia",
+    "overage": "Excedente (más efectivo del esperado)",
+    "shortage": "Faltante (menos efectivo del esperado)",
+    "notes": "Notas",
+    "notesPlaceholder": "Agrega notas sobre el cierre...",
+    "submit": "Cerrar Caja",
+    "printReport": "Ver Reporte",
+    "orders": "Ventas",
+    "movements": "Movimientos de Efectivo",
+    "orderNumber": "Número de Orden",
+    "date": "Fecha",
+    "amount": "Monto",
+    "type": "Tipo",
+    "reason": "Razón",
+    "cashIn": "Entrada",
+    "cashOut": "Salida",
+    "total": "Total",
+    "noOrders": "No se encontraron órdenes",
+    "noMovements": "No se encontraron movimientos de efectivo",
+    "orderType": "Tipo de Orden",
+    "cash": "Efectivo",
+    "credit": "Crédito",
+    "initialPayment": "Pago Inicial",
+    "creditInstallmentPayments": "Pagos de Cuotas de Crédito",
+    "installmentNo": "Cuota #",
+    "noCreditInstallmentPayments": "No se encontraron pagos de cuotas de crédito"
+  },
+  "session": {
+    "details": "Detalles de la Sesión",
+    "openedAt": "Abierta el",
+    "openingBalance": "Saldo Inicial",
+    "systemTotal": "Total del Sistema",
+    "sessionAlreadyOpen": "Ya hay una sesión abierta para esta caja registradora.",
+    "accessToRegister": "Acceder a Caja",
+    "joinSession": "Unirse a Sesión",
+    "openedBy": "Abierta por"
+  },
+  "movements": {
+    "title": "Movimientos de Caja",
+    "noMovements": "No se registraron movimientos de caja",
+    "cashIn": "Entrada de Efectivo",
+    "cashOut": "Salida de Efectivo"
+  },
+  "messages": {
+    "sessionOpened": "Sesión de caja abierta exitosamente",
+    "sessionClosed": "Sesión de caja cerrada exitosamente",
+    "sessionJoined": "Sesión de caja unida exitosamente",
+    "joinedExistingSession": "Te has unido a una sesión de caja existente",
+    "reportPrinted": "Reporte impreso exitosamente",
+    "movementCreated": "Movimiento de efectivo creado exitosamente",
+    "error": "Error",
+    "openFailed": "Error al abrir sesión de caja",
+    "closeFailed": "Error al cerrar sesión de caja",
+    "createMovementFailed": "Error al crear movimiento de efectivo",
+    "noLocationAssigned": "No hay ubicación asignada",
+    "contactAdminForLocation": "Por favor contacta a un administrador para asignar una ubicación a tu cuenta.",
+    "cannotCloseSession": "No tienes permiso para cerrar esta sesión",
+    "onlyOwnerOrAdminCanClose": "Solo el propietario de la sesión, un administrador o un cajero pueden cerrar esta sesión.",
+    "noPermission": "Sin Permiso"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "loading": "Cargando..."
+  },
+  "validation": {
+    "cashRegisterRequired": "La caja registradora es requerida",
+    "openingBalanceMin": "El saldo inicial debe ser 0 o mayor",
+    "closingBalanceMin": "El saldo final debe ser 0 o mayor",
+    "movementTypeRequired": "El tipo de movimiento es requerido",
+    "amountMin": "El monto debe ser al menos 0.01",
+    "amountPositive": "El monto debe ser positivo"
+  },
+  "movement": {
+    "title": "Crear Movimiento de Efectivo",
+    "type": "Tipo",
+    "typeIn": "Entrada de Efectivo",
+    "typeOut": "Salida de Efectivo",
+    "amount": "Monto",
+    "reason": "Razón (Opcional)",
+    "reasonPlaceholder": "Ingresa la razón de este movimiento...",
+    "submit": "Crear Movimiento"
+  }
+}

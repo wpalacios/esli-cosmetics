@@ -1,0 +1,25 @@
+{
+  "welcomeTitle": "Welcome to Esli",
+  "welcomeSubtitle": "Cosmetics Management System",
+  "title": "Sign In",
+  "subtitle": "Enter your credentials to access the system",
+  "email": "Email",
+  "password": "Password",
+  "rememberMe": "Remember me",
+  "loginButton": "Sign In",
+  "signingIn": "Signing in...",
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "passwordMin": "Password must be at least 6 characters"
+  },
+  "errors": {
+    "INVALID_CREDENTIALS": "Invalid email or password. Please check your credentials and try again.",
+    "VALIDATION_ERROR": "Please provide both email and password.",
+    "NETWORK_ERROR": "Unable to connect to the server. Please check your internet connection and try again.",
+    "ACCOUNT_LOCKED": "Your account has been locked. Please contact support.",
+    "ACCOUNT_INACTIVE": "Your account is inactive. Please contact support.",
+    "UNKNOWN_ERROR": "An unexpected error occurred. Please try again later.",
+    "default": "Login failed. Please try again."
+  }
+}

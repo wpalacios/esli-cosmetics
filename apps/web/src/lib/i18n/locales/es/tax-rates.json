@@ -1,0 +1,71 @@
+{
+  "page": {
+    "title": "Tasas de Impuesto",
+    "subtitle": "Administra las tasas de impuesto aplicadas a ventas y compras.",
+    "addButton": "Agregar Tasa de Impuesto",
+    "searchPlaceholder": "Buscar por nombre o código...",
+    "error": {
+      "loadFailed": "Fallo al cargar las tasas de impuesto. Por favor, inténtalo de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "modal": {
+    "taxRateDetails": "Detalles de la Tasa de Impuesto",
+    "createTitle": "Crear Tasa de Impuesto",
+    "editTitle": "Editar Tasa de Impuesto"
+  },
+  "form": {
+    "taxRateName": "Nombre",
+    "taxRateNameRequired": "El nombre de la tasa de impuesto es obligatorio.",
+    "taxRateNamePlaceholder": "Ej., IVA General, Impuesto Reducido",
+    "taxCode": "Código",
+    "taxCodePlaceholder": "Ej., IVA-15, Exento",
+    "ratePercentage": "Tasa (%)",
+    "active": "Activo",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "update": "Actualizar Tasa de Impuesto",
+    "create": "Crear Tasa de Impuesto"
+  },
+  "table": {
+    "title": "Tasas de Impuesto",
+    "name": "Nombre",
+    "code": "Código",
+    "rate": "Tasa",
+    "status": "Estado",
+    "createdAt": "Creado",
+    "actions": "Acciones",
+    "noData": "No se encontraron tasas de impuesto.",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "edit": "Editar",
+    "delete": "Eliminar"
+  },
+  "toast": {
+    "created": "Tasa de Impuesto creada con éxito",
+    "updated": "Tasa de Impuesto actualizada con éxito",
+    "deleted": "Tasa de Impuesto eliminada con éxito",
+    "deleteFailed": "Fallo al eliminar la tasa de impuesto",
+    "createdDesc": "La tasa de impuesto \"{{name}}\" ha sido creada.",
+    "updatedDesc": "La tasa de impuesto \"{{name}}\" ha sido actualizada.",
+    "deletedDesc": "La tasa de impuesto \"{{name}}\" ha sido eliminada.",
+    "deleteFailedDesc": "Ocurrió un error al eliminar la tasa de impuesto: {{name}}."
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Tasa de Impuesto",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar la tasa de impuesto \"{{name}}\"? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "validation": {
+    "taxRateNameRequired": "El nombre de la tasa de impuesto es obligatorio.",
+    "taxRateInvalid": "La tasa de impuesto debe ser un número válido.",
+    "taxRateMin": "La tasa de impuesto debe ser del 0% o superior.",
+    "taxRateMax": "La tasa de impuesto no puede exceder el 100%.",
+    "duplicateName": "Ya existe una tasa de impuesto con este nombre.",
+    "duplicateCode": "Ya existe una tasa de impuesto con este código."
+  },
+  "common": {
+    "taxRate": "Tasa de Impuesto"
+  }
+}

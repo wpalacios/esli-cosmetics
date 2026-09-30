@@ -1,0 +1,27 @@
+{
+  "header": {
+    "toggleSidebar": "Alternar Barra Lateral",
+    "dashboard": "Tablero"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "newCount": "{{count}} nuevas",
+    "seeAll": "Ver todas las notificaciones",
+    "viewLabel": "Ver Notificaciones",
+    "loading": "Cargando...",
+    "empty": "No hay notificaciones",
+    "noTitle": "Sin título",
+    "body": {
+      "low_stock": "{{productName}} se está quedando sin stock, cantidad actual: {{quantity}}"
+    }
+  },
+  "userMenu": {
+    "viewProfile": "Ver Perfil",
+    "accountSettings": "Configuración de Cuenta",
+    "logout": "Cerrar Sesión",
+    "menuLabel": "Menú de usuario"
+  },
+  "theme": {
+    "toggle": "Alternar tema"
+  }
+}

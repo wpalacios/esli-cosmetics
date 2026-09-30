@@ -1,0 +1,97 @@
+{
+  "name": "@esli-cosmetics/root",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Esli Cosmetics monorepo - Modern POS and inventory management system",
+  "author": "Esli Cosmetics Team",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "generate:secrets": "node scripts/generate-secrets.js",
+    "generate:secrets:jwt": "node scripts/generate-secrets.js jwt-secret",
+    "generate:secrets:refresh": "node scripts/generate-secrets.js jwt-refresh-secret",
+    "setup": "node scripts/setup-dev.js",
+    "build": "turbo run build",
+    "dev": "turbo run dev --filter=@esli-cosmetics/web --filter=@esli/backend",
+    "dev:all": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@esli-cosmetics/web",
+    "dev:backend": "turbo run dev --filter=@esli/backend",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "db:generate": "turbo run db:generate --filter=@esli/backend",
+    "db:migrate": "turbo run db:migrate --filter=@esli/backend",
+    "db:deploy": "turbo run db:deploy --filter=@esli/backend",
+    "db:push": "turbo run db:push --filter=@esli/backend",
+    "db:reset": "turbo run db:reset --filter=@esli/backend",
+    "db:studio": "turbo run db:studio --filter=@esli/backend",
+    "db:seed": "turbo run db:seed --filter=@esli/backend",
+    "db:info": "node scripts/database-info.js",
+    "storybook": "turbo run storybook",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@turbo/gen": "^1.10.12",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.57.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.0",
+    "turbo": "^1.10.12",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=22.11.0",
+    "pnpm": ">=10.17.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "19.0.0",
+      "react-dom": "19.0.0"
+    },
+    "ignoredBuiltDependencies": [
+      "@prisma/client",
+      "@prisma/engines",
+      "@scarf/scarf",
+      "bcrypt",
+      "esbuild",
+      "prisma"
+    ],
+    "onlyBuiltDependencies": [
+      "@nestjs/core"
+    ]
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.19"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,css,md}": [
+      "prettier --write"
+    ],
+    "apps/backend/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "apps/web/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "packages/ui/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "packages/utils/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Proveedores",
+    "subtitle": "Gestiona tus proveedores y su información",
+    "addButton": "Agregar Proveedor",
+    "searchPlaceholder": "Buscar por nombre, contacto, correo o teléfono...",
+    "filters": "Filtros"
+  },
+  "modal": {
+    "createTitle": "Crear Proveedor",
+    "editTitle": "Editar Proveedor",
+    "createDesc": "Crea un nuevo proveedor completando el formulario a continuación.",
+    "editDesc": "Actualiza la información del proveedor a continuación."
+  },
+  "form": {
+    "supplierName": "Nombre del Proveedor",
+    "supplierNameRequired": "El nombre del proveedor es requerido",
+    "supplierNamePlaceholder": "Ingresa el nombre del proveedor",
+    "contactName": "Nombre de Contacto",
+    "contactNamePlaceholder": "Ingresa el nombre de la persona de contacto",
+    "phone": "Teléfono",
+    "phonePlaceholder": "Ingresa el número de teléfono",
+    "email": "Correo Electrónico",
+    "emailInvalid": "Dirección de correo inválida",
+    "emailPlaceholder": "Ingresa el correo electrónico",
+    "address": "Dirección",
+    "addressPlaceholder": "Ingresa la dirección del proveedor",
+    "brands": "Marcas",
+    "brandsPlaceholder": "Selecciona las marcas que proporciona este proveedor...",
+    "searchBrands": "Buscar marcas...",
+    "loadingBrands": "Cargando marcas...",
+    "noBrandsFound": "No se encontraron marcas",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "update": "Actualizar Proveedor",
+    "create": "Crear Proveedor"
+  },
+  "table": {
+    "title": "Lista de Proveedores",
+    "name": "Nombre",
+    "contact": "Contacto",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "brands": "Marcas",
+    "created": "Creado",
+    "createdAt": "Fecha de Creación",
+    "actions": "Acciones",
+    "noData": "No se encontraron proveedores",
+    "noContact": "Sin contacto",
+    "noPhone": "Sin teléfono",
+    "noEmail": "Sin correo",
+    "noAddress": "Sin dirección",
+    "noBrands": "Sin marcas",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "page": "Página",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados"
+  },
+  "toast": {
+    "success": "Éxito",
+    "created": "Proveedor creado exitosamente",
+    "updated": "Proveedor actualizado exitosamente",
+    "deleted": "Proveedor eliminado exitosamente",
+    "error": "Error",
+    "duplicateSupplier": "Ya existe un proveedor con ese nombre.",
+    "errorDesc": "Ocurrió un error",
+    "deleteFailed": "No se pudo eliminar el proveedor"
+  },
+  "confirm": {
+    "deleteTitle": "Eliminar Proveedor",
+    "deleteDesc": "¿Estás seguro de que deseas eliminar a {{name}}? Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar",
+    "cancel": "Cancelar"
+  }
+}

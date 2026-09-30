@@ -1,0 +1,83 @@
+{
+  "page": {
+    "title": "Panel de Control",
+    "subtitle": "Resumen del rendimiento de tu negocio"
+  },
+  "header": {
+    "location": "Ubicación",
+    "selectLocation": "Seleccionar Ubicación"
+  },
+  "stats": {
+    "activeStores": "Tiendas Activas",
+    "todaysOrders": "Ventas de Hoy (Unidades)",
+    "todaysSales": "Ventas de Hoy (Monto)",
+    "inventoryItems": "Artículos en Inventario",
+    "inventoryValue": "Valor del Inventario",
+    "totalInventoryCost": "costo total de inventario",
+    "lowStockItems": "Inventario en stock bajo limite",
+    "belowLimit": "por debajo del limite",
+    "totalCustomers": "Total de Clientes",
+    "cashRegisters": "cajas registradoras",
+    "thisMonth": "este mes",
+    "lowStock": "stock bajo",
+    "active": "activos"
+  },
+  "charts": {
+    "dateFrom": "Desde",
+    "dateTo": "Hasta",
+    "loading": "Cargando…",
+    "periodHint": "Rango de fechas para gráficos",
+    "salesTrend": {
+      "title": "Tendencia de ventas",
+      "subtitle": "Monto y cantidad de órdenes por día",
+      "sales": "Ventas",
+      "orders": "Volumen",
+      "ordersLabel": "Volumen"
+    },
+    "revenue": {
+      "title": "Ingresos por día",
+      "subtitle": "Ingresos en el período seleccionado",
+      "revenue": "Ingresos",
+      "branch": "Sucursal",
+      "selectBranch": "Todas las sucursales"
+    },
+    "topProducts": {
+      "title": "Top 10 productos",
+      "subtitle": "Más unidades vendidas en el período",
+      "empty": "Sin ventas en este período",
+      "totalRevenue": "Ingresos totales"
+    },
+    "stockInCost": {
+      "title": "Costo de stock ingresado",
+      "subtitle": "Costo diario del stock ingresado en el período",
+      "totalLabel": "Total en período",
+      "series": "Costo ingresado"
+    },
+    "salesTotal": {
+      "title": "Monto total de ventas",
+      "subtitle": "Monto diario de ventas dentro del período",
+      "totalLabel": "Total en período",
+      "series": "Ventas del período"
+    }
+  },
+  "cards": {
+    "inventory": {
+      "title": "Estado del Inventario",
+      "subtitle": "Resumen de niveles de stock",
+      "lowStockItems": "Artículos con Stock Bajo",
+      "totalItems": "Total de Artículos",
+      "trackedItems": "artículos rastreados",
+      "viewLowStock": "Ver Artículos con Stock Bajo"
+    },
+    "recentOrders": {
+      "title": "Ventas Recientes",
+      "subtitle": "Últimas transacciones",
+      "viewAll": "Ver Todas las Ventas",
+      "noOrders": "No hay ventas recientes",
+      "walkInCustomer": "Cliente de Mostrador"
+    }
+  },
+  "trends": {
+    "vsLastMonth": "vs mes anterior"
+  }
+}
